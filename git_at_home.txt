@@ -1,2 +1,8 @@
 my fist small hooooome git
 change on site
+
+
+1) git init --bare origin
+2) git clone --no-hardlinks origin dir1
+3) git clone --no-hardlinks origin dir2
+4) git add README.md
