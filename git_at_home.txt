@@ -41,3 +41,9 @@ Reset (https://ru.hexlet.io/courses/intro_to_git/lessons/git-status/theory_unit)
 git reset path/to/file переводит файл из состояния staged в modified
 git checkout path/to/file переводит файл из состояния modified в unmodified, то есть по сути эта команда сбрасывает изменения.
 _______________________________________________________________________________
+
+git remote -v  -- просмотр ссылки на ресурс с хранилищем кода
+
+# Тоже самое через чтение конфига
+cat .git/config
+
