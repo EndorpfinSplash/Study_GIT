@@ -49,3 +49,52 @@ cat .git/config
 
 http://learngitbranching.js.org/
 
+
+
+
+
+
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+
+/**
+ * Created by Djokerovich on 15.05.2018.
+ */
+public class Sorter {
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new FileReader("input.txt"));
+        reader.close();
+        String line;
+        ArrayList<String> list = new ArrayList<>(); // Alt + enter
+        while ((line = reader.readLine()) != null) {// 2x(Ctrl+Shift+Enter) - autocompletion
+            list.add(line);
+        }
+        reader.close();
+        String[] array = list.toArray(new String[list.size()]);
+        
+    }
+}
+
+
+/*
+
+Shift + Enter   =  compleate statement and jump out of brackets
+        Ctrl + Shift + Enter   =  compleate line - put ; at the end.
+
+        Shift + esc     =   hide project structure = Alt + 1 = unHide
+        ctrl + j        = suitable shortcut list
+        St -> String
+        Ctrl + space    = autocompletion
+        Ctrl + Shift + space = smart autocompletion
+
+        reader.close = re.cl -> любой метод экземпляра класса можно вывзвать через сокращенное обращение по имени переменной
+        экземпляра и сокращенному имени метода.(начало имени переменной + начало имени метода)
+
+        Alt + Enter     = Resolve red lamps hints
+
+        2x(Ctrl+Shift+Enter) - autocompletion
+*/
+
