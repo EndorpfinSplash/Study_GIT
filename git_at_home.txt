@@ -96,5 +96,9 @@ Shift + Enter   =  compleate statement and jump out of brackets
         Alt + Enter     = Resolve red lamps hints
 
         2x(Ctrl+Shift+Enter) - autocompletion
+        Ctrl + Alt + v = extract var
+        Ctrl + Alt + m = extract method
+
+        Ctrl + Alt + n = inline variable (27:55)
 */
 
